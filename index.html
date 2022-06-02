@@ -9,7 +9,18 @@
 </head>
 <body onload="mostrarPersonas()">
     <header>
-        <h1>Tabla de personas</h1>
+        <h1 id="titulo">Tabla de personas</h1>
+
+        <h2 id="subtitulo">Personas</h2>
+
+        <script>
+            titulo.innerHTML = "Cambio el valor";
+        </script>
+        <script>
+            let sub = document.getElementById("subtitulo");
+            console.log(sub);
+        </script>
+
     </header>
     <main>
         <div class="tablas">
