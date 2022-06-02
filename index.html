@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="mostrarPersonas()">
+    <header>
+        <h1>Tabla de personas</h1>
+    </header>
+    <main>
+        <div class="tablas">
+            <table id="personas">
+            </table>
+    
+            <table id="ingreso">
+                <tr>
+                    <th><input id="id" type="text"></th>
+                    <th><input id="nom" type="text"></th>
+                    <th><input id="ape" type="text"></th>
+                    <th><input id="eda" type="text"></th>
+                    <th><input type="submit" onclick="agregarPersona()" text="AGREGAR"></th>
+                </tr>
+            </table>
+        </div>
+
+    </main>
+    <script src="js/persona.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
