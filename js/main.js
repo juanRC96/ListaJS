@@ -5,10 +5,10 @@ let personas =[
 let contadorPersonas;
 
 function mostrarPersonas(){
-    let tabla="<tr><th>ID</th><th>Nombre</th><th>Apellido</th><th>Edad</th></tr>";
+    let tabla= "<tr><th>ID</th><th>Nombre</th><th>Apellido</th><th>Edad</th></tr>";
 
     for(let persona of personas){
-        tabla +=  "<tr><td>"+ persona._id + "</td><td>"+ persona._nombre + "</td><td>" + persona._apellido + "</td><td>" + persona._edad + "</td></tr>";
+        tabla +=  `<tr><th>${persona._id}</th><th>${persona._nombre}</th><th>${persona._apellido}</th><th>${persona._edad}</th></tr>`;
     }
     console.log(tabla);
 
